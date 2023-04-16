@@ -7,11 +7,11 @@ export default function Documentation(){
                 <div className=" break-all text-sm mt-2">This api was created with Neon postgress,nextjs13, a little bit of tailwind</div>
                 <div className=" text-red-300">Not mobile responsive</div>
             </div>
-            <div>Please put your token in request headers - ['token':'your token']</div>
+            <div>Please put your token in request headers - [token:your token]</div>
             <table className=" table-auto min-h-min border-spacing-1 border-separate border border-slate-500">
                 <thead className="">
                     <tr className=" bg-slate-500/60 mt-10">
-                        <th className="">End point</th>
+                        <th >End point</th>
                         <th >Description</th>
                         <th >Type</th>
                         <th>Authenticated</th>
